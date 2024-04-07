@@ -1,4 +1,10 @@
-# WeatherPy
+# Python API Challenge
+
+## Background
+Data's true power is its ability to definitively answer questions. So, let's take what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What is the weather like as we approach the equator?"
+Now, we know what you may be thinking: “That’s obvious. It gets hotter.” But, if pressed for more information, how would you prove that?
+
+# Part 1: WeatherPy
 
 ## Generate the Cities List by Using the `citipy` Library
 ![](WeatherPy/output_data/1.png)
@@ -13,19 +19,11 @@
 
 ### Create the Scatter Plots Requested
 
-Latitude Vs. Temperature
-
 ![](WeatherPy/output_data/Fig1.png)
-
-Latitude Vs. Humidity
 
 ![](WeatherPy/output_data/Fig2.png)
 
-Latitude Vs. Cloudiness
-
 ![](WeatherPy/output_data/Fig3.png)
-
-Latitude vs. Wind Speed Plot
 
 ![](WeatherPy/output_data/Fig4.png)
 
@@ -38,11 +36,11 @@ Latitude vs. Wind Speed Plot
 ![](WeatherPy/output_data/5.png)
 
 ### Temperature vs. Latitude Linear Regression Plot
-![](WeatherPy/output_data/6.png)
 ![](WeatherPy/output_data/Fig5.png)
+![](WeatherPy/output_data/6.png)
 
-![](WeatherPy/output_data/7.png)
 ![](WeatherPy/output_data/Fig6.png)
+![](WeatherPy/output_data/7.png)
 
 Analysis:
 - The r-value > 0.7 for both hemispheres shows that there is a strong correlation between the latitude where the city is located and the maximum temperature.
@@ -51,11 +49,12 @@ Analysis:
 
 
 # Humidity vs. Latitude Linear Regression Plot
-![](WeatherPy/output_data/8.png)
 ![](WeatherPy/output_data/Fig7.png)
+![](WeatherPy/output_data/8.png)
 
-![](WeatherPy/output_data/9.png)
+
 ![](WeatherPy/output_data/Fig8.png)
+![](WeatherPy/output_data/9.png)
 
 Analysis:
 - The r-value < 0.3 shows there is a very week correlation between the latitude and the humidity.
