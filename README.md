@@ -5,11 +5,16 @@ Data's true power is its ability to definitively answer questions. So, let's tak
 Now, we know what you may be thinking: “That’s obvious. It gets hotter.” But, if pressed for more information, how would you prove that?
 
 # Part 1: WeatherPy
+In this deliverable, you'll create a Python script to visualize the weather of over 500 cities of varying distances from the equator. You'll use the citipy Python library, the OpenWeatherMap API, and your problem-solving skills to create a representative model of weather across cities.
+
+For this part, you'll use the WeatherPy.ipynb Jupyter notebook provided in the starter code ZIP file. The starter code will guide you through the process of using your Python coding skills to develop a solution to address the required functionalities.
+
+To get started, the code required to generate random geographic coordinates and the nearest city to each latitude and longitude combination is provided.
 
 ## Generate the Cities List by Using the `citipy` Library
 ![](WeatherPy/output_data/1.png)
 
-## Requirement 1: Create Plots to Showcase the Relationship Between Weather Variables and Latitude
+## 1. Create Plots to Showcase the Relationship Between Weather Variables and Latitude
 
 ### Use the OpenWeatherMap API to retrieve weather data from the cities list generated in the started code
 ![](WeatherPy/output_data/2.png)
@@ -27,7 +32,7 @@ Now, we know what you may be thinking: “That’s obvious. It gets hotter.” B
 
 ![](WeatherPy/output_data/Fig4.png)
 
-## Requirement 2: Compute Linear Regression for Each Relationship
+## 2. Compute Linear Regression for Each Relationship
 
 ### Create a DataFrame for the Northern Hemisphere
 ![](WeatherPy/output_data/4.png)
@@ -83,3 +88,22 @@ Analysis:
 Analysis:
 - The r-value < 0.3 on the northern hemisphere and < 0.5 in the southern hemisphere show there is a very weak and weak correlation respectively, between the latitude and the wind speed.
 - This means there is no relation between the distance to the equator and the city wind speed.
+
+# Part 2: VacationPy
+
+In this deliverable, you'll use your weather data skills to plan future vacations. Also, you'll use Jupyter notebooks, the geoViews Python library, and the Geoapify API.
+The code needed to import the required libraries and load the CSV file with the weather and coordinates data for each city created in Part 1 is provided to help you get started.
+Your main tasks will be to use the Geoapify API and the geoViews Python library and employ your Python skills to create map visualizations.
+
+## 1. Create a map that displays a point for every city in the city_data_df DataFrame as shown in the following image. The size of the point should be the humidity in each city.
+![](WeatherPy/output_data/14.png)
+
+## 2. Narrow down the `city_data_df` DataFrame to find your ideal weather conditions.
+Max Temp between 15 and 30 degrees
+Humidity below 40%
+Wind Speed under 10%
+Cloudiness below 20%
+![](WeatherPy/output_data/15.png)
+
+## 3. Create a new DataFrame called `hotel_df`.
+![](WeatherPy/output_data/16.png)
