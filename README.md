@@ -1,6 +1,6 @@
 # Python API Challenge
 
-## Background
+# Background
 Data's true power is its ability to definitively answer questions. So, let's take what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What is the weather like as we approach the equator?"
 Now, we know what you may be thinking: “That’s obvious. It gets hotter.” But, if pressed for more information, how would you prove that?
 
@@ -81,5 +81,5 @@ Analysis:
 ![](WeatherPy/output_data/13.png)
 
 Analysis:
-- The r-value < 0.3 on the northern hemisphere and < 0.5 in the southern hemisphere shows there is a very weak and weak correlation respectively, between the latitude and the wind speed.
+- The r-value < 0.3 on the northern hemisphere and < 0.5 in the southern hemisphere show there is a very weak and weak correlation respectively, between the latitude and the wind speed.
 - This means there is no relation between the distance to the equator and the city wind speed.
