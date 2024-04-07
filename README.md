@@ -45,7 +45,7 @@ Now, we know what you may be thinking: “That’s obvious. It gets hotter.” B
 Analysis:
 - The r-value > 0.7 for both hemispheres shows that there is a strong correlation between the latitude where the city is located and the maximum temperature.
 - This correlation can be seen on how the observations are around the regression line.
-- The closest the cities get to the equator the highest the maximum temperature is. This is shown with the negative correlation in the northern hemisphere and with the positive correlation in the southern hemisphere.
+- The closer the cities get to the equator the higher the maximum temperature is. This is shown with the negative correlation in the northern hemisphere and with the positive correlation in the southern hemisphere.
 
 
 # Humidity vs. Latitude Linear Regression Plot
