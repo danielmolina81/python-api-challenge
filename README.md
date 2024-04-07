@@ -11,10 +11,10 @@ For this part, you'll use the WeatherPy.ipynb Jupyter notebook provided in the s
 
 To get started, the code required to generate random geographic coordinates and the nearest city to each latitude and longitude combination is provided.
 
-## Generate the Cities List by Using the `citipy` Library
+## 1. Generate the Cities List by Using the `citipy` Library
 ![](WeatherPy/output_data/1.png)
 
-## 1. Create Plots to Showcase the Relationship Between Weather Variables and Latitude
+## 2. Create Plots to Showcase the Relationship Between Weather Variables and Latitude
 
 ### Use the OpenWeatherMap API to retrieve weather data from the cities list generated in the started code
 ![](WeatherPy/output_data/2.png)
@@ -32,7 +32,7 @@ To get started, the code required to generate random geographic coordinates and 
 
 ![](WeatherPy/output_data/Fig4.png)
 
-## 2. Compute Linear Regression for Each Relationship
+## 3. Compute Linear Regression for Each Relationship
 
 ### Create a DataFrame for the Northern Hemisphere
 ![](WeatherPy/output_data/4.png)
