@@ -44,6 +44,7 @@ To get started, the code required to generate random geographic coordinates and 
 ![](WeatherPy/output_data/Fig5.png)
 ![](WeatherPy/output_data/6.png)
 
+
 ![](WeatherPy/output_data/Fig6.png)
 ![](WeatherPy/output_data/7.png)
 
@@ -53,7 +54,7 @@ Analysis:
 - The closer the cities get to the equator the higher the maximum temperature is. This is shown with the negative correlation in the northern hemisphere and with the positive correlation in the southern hemisphere.
 
 
-# Humidity vs. Latitude Linear Regression Plot
+### Humidity vs. Latitude Linear Regression Plot
 ![](WeatherPy/output_data/Fig7.png)
 ![](WeatherPy/output_data/8.png)
 
@@ -65,10 +66,10 @@ Analysis:
 - The r-value < 0.3 shows there is a very week correlation between the latitude and the humidity.
 - This means there is no relation between the distance to the equator and the city humidity %.
 
-
-# Cloudiness vs. Latitude Linear Regression Plot
+### Cloudiness vs. Latitude Linear Regression Plot
 ![](WeatherPy/output_data/Fig9.png)
 ![](WeatherPy/output_data/10.png)
+
 
 ![](WeatherPy/output_data/Fig10.png)
 ![](WeatherPy/output_data/11.png)
@@ -77,10 +78,10 @@ Analysis:
 - The r-value < 0.3 shows there is a very week correlation between the latitude and the cloudiness.
 - This means there is no relation between the distance to the equator and the city cloudiness.
 
-
-# Wind Speed vs. Latitude Linear Regression Plot
+### Wind Speed vs. Latitude Linear Regression Plot
 ![](WeatherPy/output_data/Fig11.png)
 ![](WeatherPy/output_data/12.png)
+
 
 ![](WeatherPy/output_data/Fig12.png)
 ![](WeatherPy/output_data/13.png)
