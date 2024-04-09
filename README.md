@@ -104,9 +104,10 @@ Your main tasks will be to use the Geoapify API and the geoViews Python library 
 
 
 ## 2. Narrow down the `city_data_df` DataFrame to find your ideal weather conditions.
-Max Temp between 17 and 32 degrees
-Humidity between 30 and 80
-Cloudiness equal to 0
+- Max Temp between 17 and 32 degrees
+- Humidity between 30 and 80
+- Cloudiness equal to 0
+
 ![](WeatherPy/output_data/15.png)
 
 
