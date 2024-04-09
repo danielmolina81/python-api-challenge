@@ -99,11 +99,16 @@ Your main tasks will be to use the Geoapify API and the geoViews Python library 
 ![](WeatherPy/output_data/14.png)
 
 ## 2. Narrow down the `city_data_df` DataFrame to find your ideal weather conditions.
-Max Temp between 15 and 30 degrees
-Humidity below 40%
-Wind Speed under 10%
-Cloudiness below 20%
+Max Temp between 17 and 32 degrees
+Humidity between 30 and 80
+Cloudiness equal to 0
 ![](WeatherPy/output_data/15.png)
 
 ## 3. Create a new DataFrame called `hotel_df`.
 ![](WeatherPy/output_data/16.png)
+
+## 4. For each city, use the Geoapify API to find the first hotel located within 10,000 metres of your coordinates.
+![](WeatherPy/output_data/17.png)
+
+## 5. Add the hotel name and the country as additional information in the hover message for each city in the map.
+![](WeatherPy/output_data/18.png)
